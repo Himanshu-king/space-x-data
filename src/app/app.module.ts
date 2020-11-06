@@ -9,6 +9,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { SpinnerComponent } from "./shared/spinner/spinner.component";
 import { LoadingInterceptor } from './services/loading.interceptor';
 import { ResultCardsComponent } from './result-cards/result-cards.component';
+import { SafePipe } from './shared/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ResultCardsComponent } from './result-cards/result-cards.component';
     FilterButtonComponent,
     SpinnerComponent,
     ResultCardsComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "serverApp" }),

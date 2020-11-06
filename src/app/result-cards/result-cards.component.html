@@ -1,6 +1,7 @@
-<div class="cards-element-image">
-  <img [src]="launchData.links.mission_patch" />
-</div>
+<div class="cards-element-image" style="margin-top: 15px;">
+  <iframe width="200" height="148"
+  [src]="launchData.links.video_link | safe">
+  </iframe></div>
 <div class="card-element-details" [ngClass]="{ 'card-element-scroll': launchData.mission_id.length >= 2 }">
   <p class="cards-element__heading">{{ launchData.mission_name }}</p>
   <p>Mission ids</p>

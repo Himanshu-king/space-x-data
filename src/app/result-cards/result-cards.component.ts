@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from "@angular/core";
+import { FlightData } from '../shared/flight-data.model';
 
 @Component({
   selector: "app-result-cards",
@@ -6,7 +7,7 @@ import { Component, Input, OnInit } from "@angular/core";
   styleUrls: ["./result-cards.component.css"],
 })
 export class ResultCardsComponent implements OnInit {
-  @Input() launchData: any;
+  @Input() launchData: FlightData;
   constructor() {}
 
   ngOnInit() {}

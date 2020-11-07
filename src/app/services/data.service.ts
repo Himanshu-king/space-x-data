@@ -1,7 +1,8 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { throwError, Observable } from "rxjs";
-import { catchError } from "rxjs/operators";
+import { catchError, map } from "rxjs/operators";
+import { FlightData } from "../shared/flight-data.model";
 
 const API_PREFIX = "https://api.spaceXdata.com/v3/launches?limit=100";
 
@@ -15,42 +16,39 @@ export class DataService {
    * Get all spacXdata
    */
 
-  getAllLaunches(): Observable<any> {
-    return this.http.get(API_PREFIX, {}).pipe(catchError(this.handleError));
+  getAllLaunches(): Observable<FlightData[]> {
+    return this.http.get<FlightData[]>(API_PREFIX, {}).pipe(
+      map((data) => this.formatData(data)),
+      catchError(this.handleError)
+    );
   }
 
   // Launch & Land Success/Failure Filter
-  getFilterData(query: string) {
-    return this.http
-      .get(`${API_PREFIX}&${query}`, {})
-      .pipe(catchError(this.handleError));
+  getFilterData(query: string): Observable<FlightData[]> {
+    return this.http.get(`${API_PREFIX}&${query}`, {}).pipe(
+      map((data) => this.formatData(data)),
+      catchError(this.handleError)
+    );
   }
 
-  // Launch Success / failure Filter
-  getLaunchFilterData(launch = true) {
-    return this.http
-      .get(`${API_PREFIX}&launch_success=${launch}`, {})
-      .pipe(catchError(this.handleError));
+  formatData(data): FlightData[] {
+    return data.map((item) => {
+      const modifiedData: FlightData = {
+        flight_number: item.flight_number,
+        mission_id: item.mission_id,
+        mission_name: item.mission_name,
+        launch_year: item.launch_year,
+        launch_success: item.launch_success,
+        land_success: item.launch_success
+          ? item.rocket.first_stage.cores[0].land_success
+          : false,
+          video_link: item.links.video_link,
+      };
+      return modifiedData;
+    });
   }
 
-  // Launch & Land Success/Failure Filter
-  getLandFilterData(land = true, launch = true) {
-    return this.http
-      .get(`${API_PREFIX}&launch_success=${launch}&land_success=${land}`, {})
-      .pipe(catchError(this.handleError));
-  }
-
-  // Launch & Land Success/Failure Filter Per Year
-  getLaunchsDataPerYear(year: number, land = true, launch = true) {
-    return this.http
-      .get(
-        `${API_PREFIX}&launch_success=${launch}&land_success=${land}&launch_year=${year}`,
-        {}
-      )
-      .pipe(catchError(this.handleError));
-  }
-
-  private handleError(err: { error: { message: any; }; status: any; body: { error: any; }; }) {
+  private handleError(err: any) {
     let errorMessage: string;
     if (err.error instanceof ErrorEvent) {
       // A client-side or network error occurred. Handle it accordingly.

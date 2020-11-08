@@ -1,12 +1,53 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed } from "@angular/core/testing";
 
-import { DataService } from './data.service';
+import { DataService } from "./data.service";
+import {
+  HttpClientTestingModule,
+  HttpTestingController,
+} from "@angular/common/http/testing";
 
-describe('DataService', () => {
-  beforeEach(() => TestBed.configureTestingModule({}));
+const allLaunchData = require("../../assets/mock/getAllLaunchData.json");
 
-  it('should be created', () => {
-    const service: DataService = TestBed.get(DataService);
+describe("DataService", () => {
+  let service: DataService;
+  let httpTestingController: HttpTestingController;
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+    });
+    service = TestBed.get(DataService);
+    httpTestingController = TestBed.get(HttpTestingController);
+  });
+
+  it("should be created", () => {
     expect(service).toBeTruthy();
+  });
+
+  it("should call getAllLaunches", () => {
+    service.getAllLaunches().subscribe((value: any) => {
+      expect(value[0].flight_number).toEqual(1);
+    });
+    const API_PREFIX = "https://api.spaceXdata.com/v3/launches?limit=100";
+
+    const req = httpTestingController.expectOne(API_PREFIX);
+    expect(req.request.method).toBe("GET");
+
+    req.flush(allLaunchData);
+
+    httpTestingController.verify();
+  });
+
+  it("should call getFilterData", () => {
+    const query = "launch_success=true";
+    service.getFilterData(query).subscribe((value: any) => {
+      expect(value[0].flight_number).toEqual(1);
+    });
+    const API_PREFIX = "https://api.spaceXdata.com/v3/launches?limit=100";
+    const req = httpTestingController.expectOne(`${API_PREFIX}&${query}`);
+    expect(req.request.method).toBe("GET");
+
+    req.flush(allLaunchData);
+
+    httpTestingController.verify();
   });
 });

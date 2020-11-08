@@ -1,6 +1,25 @@
+import { Component } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { SpinnerComponent } from './shared/spinner/spinner.component';
+
+@Component({
+  selector: `app-dashboard`,
+  template: `
+    <div></div>
+  `
+})
+class MockDashboardComponent {}
+
+@Component({
+  selector: `app-spinner`,
+  template: `
+    <div></div>
+  `
+})
+class MockSpinnerComponent {}
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -9,7 +28,9 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        MockDashboardComponent,
+        MockSpinnerComponent
       ],
     }).compileComponents();
   }));
@@ -30,6 +51,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to space-x-data!');
+    expect(compiled.querySelector('h1').textContent).toContain('SpacEx Launch programs');
   });
 });

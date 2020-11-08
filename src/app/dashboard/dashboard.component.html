@@ -5,8 +5,8 @@
       <h2 class="container-heading">Filters</h2>
 
       <!-- Launch year Filter section -->
-      <div class="filter-heading">Launch year</div>
-      <div class="filter-table">
+      <div  class="filter-heading">Launch year</div>
+      <div id="year" class="filter-table">
         <app-filter-button class="filter-item" *ngFor="let filterVal of filterRange" [filterVal]="filterVal"
           [currentVal]="filterState[constants.LAUNCH_YEAR]" (click)="filterSelection(constants.LAUNCH_YEAR, filterVal)">
         </app-filter-button>
@@ -15,7 +15,7 @@
 
       <!-- Succesful Launch Filter section -->
       <div class="filter-heading">Succesful Launch</div>
-      <div class="filter-table">
+      <div id="launch" class="filter-table">
         <app-filter-button class="filter-item" filterVal="True" [currentVal]="filterState[constants.LAUNCH_SUCCESS]"
           (click)="filterSelection(constants.LAUNCH_SUCCESS, true)"></app-filter-button>
         <app-filter-button class="filter-item" filterVal="False" [currentVal]="filterState[constants.LAUNCH_SUCCESS]"
@@ -25,7 +25,7 @@
 
       <!-- Succesful Landing Filter section -->
       <div class="filter-heading">Succesful Landing</div>
-      <div class="filter-table">
+      <div  id="landing" class="filter-table">
         <app-filter-button class="filter-item" filterVal="True" [currentVal]="filterState[constants.LAND_SUCCESS]"
           (click)="filterSelection(constants.LAND_SUCCESS, true)"></app-filter-button>
         <app-filter-button class="filter-item" filterVal="False" [currentVal]="filterState[constants.LAND_SUCCESS]"

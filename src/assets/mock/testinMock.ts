@@ -1,0 +1,38 @@
+export const MockLaunchData = [
+  {
+    flight_number: 1,
+    mission_id: ["2CF444A", "F7709F2"],
+    mission_name: "ABS-3A / Eutelsat 115W B",
+    launch_year: "2015",
+    launch_success: true,
+    land_success: false,
+    video_link: "https://www.youtube.com/watch?v=mN7lyaCBzT8",
+  },
+  {
+    flight_number: 1,
+    mission_id: ["2CF444A", "F7709F2"],
+    mission_name: "ABS-3A / Eutelsat 115W B",
+    launch_year: "2015",
+    launch_success: true,
+    land_success: false,
+    video_link: "https://www.youtube.com/watch?v=mN7lyaCBzT8",
+  },
+  {
+    flight_number: 1,
+    mission_id: ["2CF444A", "F7709F2"],
+    mission_name: "ABS-3A / Eutelsat 115W B",
+    launch_year: "2015",
+    launch_success: true,
+    land_success: false,
+    video_link: "https://www.youtube.com/watch?v=mN7lyaCBzT8",
+  },
+  {
+    flight_number: 1,
+    mission_id: ["2CF444A", "F7709F2"],
+    mission_name: "ABS-3A / Eutelsat 115W B",
+    launch_year: "2015",
+    launch_success: true,
+    land_success: false,
+    video_link: "https://www.youtube.com/watch?v=mN7lyaCBzT8",
+  },
+];

@@ -1,16 +1,16 @@
-<div *ngIf="launchData" class="cards-element-image" style="margin-top: 15px">
+<div *ngIf="launchData" class="cards-element-image" style="background-color: #d8d8d8;">
   <iframe width="200" height="148" [src]="launchData.video_link | safe">
   </iframe>
 </div>
 <div *ngIf="launchData" class="card-element-details" [ngClass]="{ 'card-element-scroll': launchData.mission_id.length >= 2 }">
-  <p class="cards-element__heading">{{ launchData.mission_name }}</p>
-  <p>Mission ids</p>
+  <p class="cards-element__heading">{{ launchData.mission_name }} #{{launchData.flight_number}}</p>
+  <p class="label">Mission ids</p>
   <ul>
     <li *ngFor="let ids of launchData.mission_id; index as i">
       {{ ids }}
     </li>
   </ul>
-  <p>Launch Year : {{ launchData.launch_year }}</p>
-  <p>SuccessFul Launch : {{ launchData.launch_success }}</p>
-  <p>SuccessFul Landing : {{ launchData.land_success ? launchData.land_success : false }}</p>
+  <p class="label">Launch Year : <span>{{ launchData.launch_year }}</span></p>
+  <p class="label">SuccessFul Launch : <span>{{ launchData.launch_success }}</span></p>
+  <p class="label">SuccessFul Landing : <span>{{ launchData.land_success ? launchData.land_success : false }}</span></p>
 </div>

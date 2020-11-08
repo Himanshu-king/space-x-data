@@ -17,11 +17,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Heroku app
+Check this app using this URL: https://space-x-data-demo.herokuapp.com/
 
 Any code changes done and pushed to master branch in git will automatically trigger deployement build in heroku which in turn will execute below two scripts from package json:
 
 1.  npm build --> builds the angular universal app in production mode and create browser and server folder in dist/
-2.  npm start --> starts "node server.js” this command will run the server.js file from the dist/server folder through the server
+2.  npm start --> starts "node server.js” this command will run the server.js file from the dist/server folder through the heroku server.
 
 ## Running unit tests
 

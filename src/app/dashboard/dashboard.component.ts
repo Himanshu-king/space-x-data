@@ -30,7 +30,14 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     this.route.queryParams
-      .pipe(debounceTime(400), distinctUntilChanged())
+      .pipe(
+        debounceTime(400),
+        distinctUntilChanged((preVal, currVal) => {
+          return Object.keys(currVal).length === Object.keys(preVal).length
+            ? Object.keys(currVal).every((i) => preVal[i] === currVal[i])
+            : false;
+        })
+      )
       .subscribe((params) => {
         if (
           params.hasOwnProperty(FilterKeys.LAUNCH_YEAR) ||
@@ -39,6 +46,9 @@ export class DashboardComponent implements OnInit {
         ) {
           const query = this.applyFilter(params);
           this.launches$ = this.getFilteredResults(query);
+          if (this.checkNullObject()) {
+            this.setFilterStateOnLoad(params);
+          }
         } else {
           this.launches$ = this.getAllLaunchesData();
         }
@@ -49,7 +59,7 @@ export class DashboardComponent implements OnInit {
    * Function to construct query and fetch filtered results from server
    * @param params - current state of queryParams on load of the page / on change of filter
    */
-  applyFilter(params: { [s: string]: unknown } | ArrayLike<unknown>): string {
+  applyFilter(params: object): string {
     const query = [];
     for (const [key, value] of Object.entries(params)) {
       query.push(`${key}=${value}`);
@@ -90,33 +100,38 @@ export class DashboardComponent implements OnInit {
    * @param val - the value to update
    */
   filterSelection(identifier: string, val: any) {
-    this.filterState[identifier] = val;
+    // for mimic toggle behaviour of button
+    // setting current filterState value as null if selected filtr is clicked again
+    this.filterState[identifier] =
+      this.filterState[identifier] === val ? null : val;
+
+    // when null is set in queryparams it is removed form the URL params
     this.router.navigate([""], {
       relativeTo: this.route,
       queryParams: {
-        [identifier]: val,
+        [identifier]: this.filterState[identifier],
       },
       queryParamsHandling: "merge",
     });
   }
 
-  // filterLandingSelection(val: any) {
-  //   this.router.navigate([""], {
-  //     relativeTo: this.route,
-  //     queryParams: {
-  //       land_success: val,
-  //     },
-  //     queryParamsHandling: "merge",
-  //   });
-  // }
+  /**
+   * Check if the filterState object is null on page load
+   */
+  checkNullObject = () => {
+    return Object.keys(this.filterState).every(
+      (i) => this.filterState[i] === null
+    );
+  };
 
-  // filterLaunchSelection(val: any) {
-  //   this.router.navigate([""], {
-  //     relativeTo: this.route,
-  //     queryParams: {
-  //       launch_success: val,
-  //     },
-  //     queryParamsHandling: "merge",
-  //   });
-  // }
+  /**
+   * Function to map the current querParams object in the URL to the current filterState object
+   * @param params - current querParams object in the URL
+   */
+  setFilterStateOnLoad(params) {
+    Object.keys(params).reduce((filterState, currKey) => {
+      filterState[currKey] = params[currKey];
+      return filterState;
+    }, this.filterState);
+  }
 }

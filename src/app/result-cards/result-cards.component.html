@@ -12,5 +12,5 @@
   </ul>
   <p>Launch Year : {{ launchData.launch_year }}</p>
   <p>SuccessFul Launch : {{ launchData.launch_success }}</p>
-  <p>SuccessFul Landing : {{ launchData.land_success }}</p>
+  <p>SuccessFul Landing : {{ launchData.land_success ? launchData.land_success : false }}</p>
 </div>

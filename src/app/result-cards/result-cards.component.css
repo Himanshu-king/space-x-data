@@ -1,8 +1,8 @@
 .cards-element-image > img {
   object-fit: cover;
-  height: 148px;
-  width: 148px;
-  background-color: white;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
 }
 
 .card-element-details {

@@ -74,9 +74,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "kwajalein_atoll",
       "site_name": "Kwajalein Atoll",
@@ -105,9 +103,7 @@
     "details": "Engine failure at 33 seconds and loss of vehicle",
     "static_fire_date_utc": "2006-03-17T00:00:00.000Z",
     "static_fire_date_unix": 1142553600,
-    "timeline": {
-      "webcast_liftoff": 54
-    },
+    "timeline": { "webcast_liftoff": 54 },
     "crew": null
   },
   {
@@ -184,9 +180,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "kwajalein_atoll",
       "site_name": "Kwajalein Atoll",
@@ -216,9 +210,7 @@
     "upcoming": false,
     "static_fire_date_utc": null,
     "static_fire_date_unix": null,
-    "timeline": {
-      "webcast_liftoff": 60
-    },
+    "timeline": { "webcast_liftoff": 60 },
     "crew": null
   },
   {
@@ -324,9 +316,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "kwajalein_atoll",
       "site_name": "Kwajalein Atoll",
@@ -356,9 +346,7 @@
     "upcoming": false,
     "static_fire_date_utc": null,
     "static_fire_date_unix": null,
-    "timeline": {
-      "webcast_liftoff": 14
-    },
+    "timeline": { "webcast_liftoff": 14 },
     "crew": null
   },
   {
@@ -412,17 +400,17 @@
               "regime": "low-earth",
               "longitude": null,
               "lifespan_years": null,
-              "epoch": "2020-11-05T07:16:04.000Z",
-              "mean_motion": 14.84878654,
-              "raan": 205.1919,
-              "semi_major_axis_km": 6992.103,
-              "eccentricity": 0.0012886,
-              "periapsis_km": 604.958,
-              "apoapsis_km": 622.978,
-              "inclination_deg": 9.3454,
+              "epoch": "2020-11-07T18:54:49.000Z",
+              "mean_motion": 14.84879872,
+              "raan": 187.384,
+              "semi_major_axis_km": 6992.099,
+              "eccentricity": 0.001324,
+              "periapsis_km": 604.707,
+              "apoapsis_km": 623.222,
+              "inclination_deg": 9.3452,
               "period_min": 96.977,
-              "arg_of_pericenter": 164.0636,
-              "mean_anomaly": 195.997
+              "arg_of_pericenter": 198.8085,
+              "mean_anomaly": 161.1625
             }
           }
         ]
@@ -435,9 +423,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "kwajalein_atoll",
       "site_name": "Kwajalein Atoll",
@@ -462,9 +448,7 @@
     "upcoming": false,
     "static_fire_date_utc": "2008-09-20T00:00:00.000Z",
     "static_fire_date_unix": 1221868800,
-    "timeline": {
-      "webcast_liftoff": 5
-    },
+    "timeline": { "webcast_liftoff": 5 },
     "crew": null
   },
   {
@@ -517,18 +501,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7048.931,
-              "eccentricity": 0.0016299,
-              "periapsis_km": 659.307,
-              "apoapsis_km": 682.285,
-              "inclination_deg": 8.9868,
+              "semi_major_axis_km": 7048.929,
+              "eccentricity": 0.0016052,
+              "periapsis_km": 659.479,
+              "apoapsis_km": 682.109,
+              "inclination_deg": 8.987,
               "period_min": 98.162,
               "lifespan_years": null,
-              "epoch": "2020-11-04T20:40:35.000Z",
-              "mean_motion": 14.66958628,
-              "raan": 98.5159,
-              "arg_of_pericenter": 32.5663,
-              "mean_anomaly": 327.553
+              "epoch": "2020-11-07T18:50:41.000Z",
+              "mean_motion": 14.66959103,
+              "raan": 78.1298,
+              "arg_of_pericenter": 73.6564,
+              "mean_anomaly": 286.539
             }
           }
         ]
@@ -541,9 +525,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "kwajalein_atoll",
       "site_name": "Kwajalein Atoll",
@@ -568,9 +550,7 @@
     "upcoming": false,
     "static_fire_date_utc": null,
     "static_fire_date_unix": null,
-    "timeline": {
-      "webcast_liftoff": 5
-    },
+    "timeline": { "webcast_liftoff": 5 },
     "crew": null
   },
   {
@@ -642,9 +622,7 @@
       "fairings": null
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -790,9 +768,7 @@
       "fairings": null
     },
     "ships": ["AMERICANCHAMPION"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -911,9 +887,7 @@
       "fairings": null
     },
     "ships": ["AMERICANCHAMPION"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1060,9 +1034,7 @@
       "fairings": null
     },
     "ships": ["AMERICANISLANDER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1184,9 +1156,7 @@
       "fairings": null
     },
     "ships": ["AMERICANISLANDER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1284,18 +1254,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7168.982,
-              "eccentricity": 0.0656195,
-              "periapsis_km": 320.422,
-              "apoapsis_km": 1261.273,
-              "inclination_deg": 80.9673,
-              "period_min": 100.68,
+              "semi_major_axis_km": 7168.922,
+              "eccentricity": 0.0656188,
+              "periapsis_km": 320.37,
+              "apoapsis_km": 1261.203,
+              "inclination_deg": 80.9672,
+              "period_min": 100.679,
               "lifespan_years": 2,
-              "epoch": "2020-11-04T21:45:13.000Z",
-              "mean_motion": 14.30264761,
-              "raan": 167.5231,
-              "arg_of_pericenter": 252.1013,
-              "mean_anomaly": 100.7604
+              "epoch": "2020-11-07T20:16:18.000Z",
+              "mean_motion": 14.30283004,
+              "raan": 164.4469,
+              "arg_of_pericenter": 243.4883,
+              "mean_anomaly": 109.7601
             }
           }
         ]
@@ -1308,9 +1278,7 @@
       }
     },
     "ships": ["AMERICANSPIRIT"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "vafb_slc_4e",
       "site_name": "VAFB SLC 4E",
@@ -1407,18 +1375,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 95,
-              "semi_major_axis_km": 42164.641,
-              "eccentricity": 0.0001132,
-              "periapsis_km": 35781.733,
-              "apoapsis_km": 35791.279,
-              "inclination_deg": 0.0162,
-              "period_min": 1436.092,
+              "semi_major_axis_km": 42165.043,
+              "eccentricity": 0.0001,
+              "periapsis_km": 35782.691,
+              "apoapsis_km": 35791.124,
+              "inclination_deg": 0.0143,
+              "period_min": 1436.112,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T20:05:45.000Z",
-              "mean_motion": 1.00272107,
-              "raan": 232.8634,
-              "arg_of_pericenter": 332.8507,
-              "mean_anomaly": 235.3043
+              "epoch": "2020-11-07T16:49:54.000Z",
+              "mean_motion": 1.00270674,
+              "raan": 218.768,
+              "arg_of_pericenter": 354.8946,
+              "mean_anomaly": 181.2121
             }
           }
         ]
@@ -1431,9 +1399,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1532,18 +1498,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 78.5,
-              "semi_major_axis_km": 42163.871,
-              "eccentricity": 0.0003484,
-              "periapsis_km": 35771.046,
-              "apoapsis_km": 35800.426,
-              "inclination_deg": 0.0676,
-              "period_min": 1436.052,
+              "semi_major_axis_km": 42164.89,
+              "eccentricity": 0.0003454,
+              "periapsis_km": 35772.191,
+              "apoapsis_km": 35801.319,
+              "inclination_deg": 0.0727,
+              "period_min": 1436.105,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:55:42.000Z",
-              "mean_motion": 1.00274855,
-              "raan": 112.2397,
-              "arg_of_pericenter": 85.1243,
-              "mean_anomaly": 254.7136
+              "epoch": "2020-11-07T19:49:11.000Z",
+              "mean_motion": 1.00271219,
+              "raan": 112.0377,
+              "arg_of_pericenter": 83.9092,
+              "mean_anomaly": 227.3792
             }
           }
         ]
@@ -1556,9 +1522,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1685,9 +1649,7 @@
       "fairings": null
     },
     "ships": ["AMERICANISLANDER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1816,9 +1778,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -1922,18 +1882,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 105.5,
-              "semi_major_axis_km": 42164.551,
-              "eccentricity": 0.0002105,
-              "periapsis_km": 35777.54,
-              "apoapsis_km": 35795.292,
-              "inclination_deg": 0.034,
-              "period_min": 1436.087,
+              "semi_major_axis_km": 42164.566,
+              "eccentricity": 0.0001977,
+              "periapsis_km": 35778.095,
+              "apoapsis_km": 35794.767,
+              "inclination_deg": 0.0384,
+              "period_min": 1436.088,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T22:13:42.000Z",
-              "mean_motion": 1.00272429,
-              "raan": 115.3265,
-              "arg_of_pericenter": 94.0502,
-              "mean_anomaly": 164.8056
+              "epoch": "2020-11-07T19:52:00.000Z",
+              "mean_motion": 1.00272375,
+              "raan": 97.9609,
+              "arg_of_pericenter": 116.7938,
+              "mean_anomaly": 126.8689
             }
           }
         ]
@@ -1946,9 +1906,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2053,18 +2011,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 120,
-              "semi_major_axis_km": 42164.94,
-              "eccentricity": 0.000083,
-              "periapsis_km": 35783.305,
-              "apoapsis_km": 35790.304,
-              "inclination_deg": 0.0458,
-              "period_min": 1436.107,
+              "semi_major_axis_km": 42164.411,
+              "eccentricity": 0.0000751,
+              "periapsis_km": 35783.11,
+              "apoapsis_km": 35789.443,
+              "inclination_deg": 0.0482,
+              "period_min": 1436.08,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:42:42.000Z",
-              "mean_motion": 1.00271042,
-              "raan": 91.9521,
-              "arg_of_pericenter": 136.4797,
-              "mean_anomaly": 261.7839
+              "epoch": "2020-11-07T18:50:40.000Z",
+              "mean_motion": 1.00272927,
+              "raan": 91.0383,
+              "arg_of_pericenter": 130.3168,
+              "mean_anomaly": 228.6906
             }
           }
         ]
@@ -2077,9 +2035,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2207,9 +2163,7 @@
       "fairings": null
     },
     "ships": ["AMERICANISLANDER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2337,9 +2291,7 @@
       "fairings": null
     },
     "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "JRTI-1", "NRCQUEST"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2470,9 +2422,7 @@
       }
     },
     "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2508,9 +2458,7 @@
     "upcoming": false,
     "static_fire_date_utc": "2015-01-31T00:00:00.000Z",
     "static_fire_date_unix": 1422662400,
-    "timeline": {
-      "webcast_launch": 960
-    },
+    "timeline": { "webcast_launch": 960 },
     "crew": null
   },
   {
@@ -2563,18 +2511,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -3,
-              "semi_major_axis_km": 42165.446,
-              "eccentricity": 0.0000513,
-              "periapsis_km": 35785.148,
-              "apoapsis_km": 35789.474,
-              "inclination_deg": 0.0224,
-              "period_min": 1436.133,
+              "semi_major_axis_km": 42165.406,
+              "eccentricity": 0.0000449,
+              "periapsis_km": 35785.377,
+              "apoapsis_km": 35789.164,
+              "inclination_deg": 0.0212,
+              "period_min": 1436.131,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T10:05:42.000Z",
-              "mean_motion": 1.00269235,
-              "raan": 281.3783,
-              "arg_of_pericenter": 123.6359,
-              "mean_anomaly": 148.5719
+              "epoch": "2020-11-07T19:52:00.000Z",
+              "mean_motion": 1.0026938,
+              "raan": 282.9925,
+              "arg_of_pericenter": 111.8109,
+              "mean_anomaly": 307.718
             }
           },
           {
@@ -2592,18 +2540,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -114.9,
-              "semi_major_axis_km": 42164.686,
-              "eccentricity": 0.0000367,
-              "periapsis_km": 35785.004,
-              "apoapsis_km": 35788.098,
-              "inclination_deg": 0.0134,
-              "period_min": 1436.094,
+              "semi_major_axis_km": 42164.791,
+              "eccentricity": 0.0000372,
+              "periapsis_km": 35785.087,
+              "apoapsis_km": 35788.224,
+              "inclination_deg": 0.0125,
+              "period_min": 1436.099,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T10:03:16.000Z",
-              "mean_motion": 1.00271947,
-              "raan": 122.708,
-              "arg_of_pericenter": 330.3,
-              "mean_anomaly": 348.0389
+              "epoch": "2020-11-07T15:59:57.000Z",
+              "mean_motion": 1.00271574,
+              "raan": 122.2056,
+              "arg_of_pericenter": 12.0551,
+              "mean_anomaly": 38.1733
             }
           }
         ]
@@ -2616,9 +2564,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2748,9 +2694,7 @@
       "fairings": null
     },
     "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "JRTI-1", "NRCQUEST"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -2854,18 +2798,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 52,
-              "semi_major_axis_km": 42163.878,
-              "eccentricity": 0.000358,
-              "periapsis_km": 35770.648,
-              "apoapsis_km": 35800.838,
-              "inclination_deg": 0.0142,
-              "period_min": 1436.053,
+              "semi_major_axis_km": 42165.285,
+              "eccentricity": 0.0003684,
+              "periapsis_km": 35771.616,
+              "apoapsis_km": 35802.684,
+              "inclination_deg": 0.0174,
+              "period_min": 1436.125,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:36:42.000Z",
-              "mean_motion": 1.0027483,
-              "raan": 280.491,
-              "arg_of_pericenter": 308.2533,
-              "mean_anomaly": 192.105
+              "epoch": "2020-11-07T20:23:42.000Z",
+              "mean_motion": 1.0026981,
+              "raan": 289.7285,
+              "arg_of_pericenter": 307.7853,
+              "mean_anomaly": 167.9804
             }
           }
         ]
@@ -2878,9 +2822,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -3009,9 +2951,7 @@
       "fairings": null
     },
     "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -3117,18 +3057,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7088.067,
-              "eccentricity": 0.0002004,
-              "periapsis_km": 708.512,
-              "apoapsis_km": 711.353,
-              "inclination_deg": 47.0037,
+              "semi_major_axis_km": 7088.068,
+              "eccentricity": 0.00022,
+              "periapsis_km": 708.374,
+              "apoapsis_km": 711.492,
+              "inclination_deg": 47.0066,
               "period_min": 98.98,
               "lifespan_years": 5,
-              "epoch": "2020-11-04T21:53:11.000Z",
-              "mean_motion": 14.54825711,
-              "raan": 116.2933,
-              "arg_of_pericenter": 168.3392,
-              "mean_anomaly": 191.7539
+              "epoch": "2020-11-07T19:06:46.000Z",
+              "mean_motion": 14.54825506,
+              "raan": 102.7437,
+              "arg_of_pericenter": 180.1104,
+              "mean_anomaly": 179.978
             }
           }
         ]
@@ -3253,17 +3193,17 @@
               "regime": "low-earth",
               "longitude": null,
               "semi_major_axis_km": 7715.871,
-              "eccentricity": 0.0007433,
-              "periapsis_km": 1332.001,
-              "apoapsis_km": 1343.472,
-              "inclination_deg": 66.0416,
+              "eccentricity": 0.0007454,
+              "periapsis_km": 1331.985,
+              "apoapsis_km": 1343.488,
+              "inclination_deg": 66.042,
               "period_min": 112.418,
               "lifespan_years": 5,
-              "epoch": "2020-11-05T14:12:23.000Z",
-              "mean_motion": 12.80929555,
-              "raan": 71.9899,
-              "arg_of_pericenter": 265.6976,
-              "mean_anomaly": 94.319
+              "epoch": "2020-11-07T18:40:24.000Z",
+              "mean_motion": 12.80929582,
+              "raan": 67.4493,
+              "arg_of_pericenter": 265.8027,
+              "mean_anomaly": 94.2136
             }
           }
         ]
@@ -3386,18 +3326,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 108.2,
-              "semi_major_axis_km": 42164.721,
-              "eccentricity": 0.0000736,
-              "periapsis_km": 35783.482,
-              "apoapsis_km": 35789.689,
-              "inclination_deg": 0.017,
-              "period_min": 1436.096,
+              "semi_major_axis_km": 42164.905,
+              "eccentricity": 0.0000667,
+              "periapsis_km": 35783.957,
+              "apoapsis_km": 35789.582,
+              "inclination_deg": 0.0161,
+              "period_min": 1436.105,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T01:19:41.000Z",
-              "mean_motion": 1.00271823,
-              "raan": 276.7192,
-              "arg_of_pericenter": 250.7524,
-              "mean_anomaly": 5.5316
+              "epoch": "2020-11-07T10:10:36.000Z",
+              "mean_motion": 1.00271167,
+              "raan": 276.5558,
+              "arg_of_pericenter": 243.7523,
+              "mean_anomaly": 147.7575
             }
           }
         ]
@@ -3663,18 +3603,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 154,
-              "semi_major_axis_km": 42165.172,
-              "eccentricity": 0.0002203,
-              "periapsis_km": 35777.748,
-              "apoapsis_km": 35796.326,
-              "inclination_deg": 0.0132,
-              "period_min": 1436.119,
+              "semi_major_axis_km": 42165.085,
+              "eccentricity": 0.0002136,
+              "periapsis_km": 35777.943,
+              "apoapsis_km": 35795.956,
+              "inclination_deg": 0.0108,
+              "period_min": 1436.114,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T05:07:39.000Z",
-              "mean_motion": 1.00270214,
-              "raan": 272.0836,
-              "arg_of_pericenter": 317.4533,
-              "mean_anomaly": 46.3143
+              "epoch": "2020-11-07T19:10:12.000Z",
+              "mean_motion": 1.00270525,
+              "raan": 274.2975,
+              "arg_of_pericenter": 319.6846,
+              "mean_anomaly": 255.0538
             }
           }
         ]
@@ -3798,18 +3738,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 78.5,
-              "semi_major_axis_km": 42164.214,
-              "eccentricity": 0.0001186,
-              "periapsis_km": 35781.078,
-              "apoapsis_km": 35791.08,
-              "inclination_deg": 0.1065,
-              "period_min": 1436.07,
+              "semi_major_axis_km": 42164.382,
+              "eccentricity": 0.0001348,
+              "periapsis_km": 35780.564,
+              "apoapsis_km": 35791.931,
+              "inclination_deg": 0.1133,
+              "period_min": 1436.079,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:55:42.000Z",
-              "mean_motion": 1.00273631,
-              "raan": 84.9011,
-              "arg_of_pericenter": 256.4946,
-              "mean_anomaly": 110.6458
+              "epoch": "2020-11-07T19:49:11.000Z",
+              "mean_motion": 1.0027303,
+              "raan": 85.995,
+              "arg_of_pericenter": 256.1549,
+              "mean_anomaly": 81.1465
             }
           }
         ]
@@ -3937,18 +3877,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 75,
-              "semi_major_axis_km": 42165.271,
-              "eccentricity": 0.0000862,
-              "periapsis_km": 35783.502,
-              "apoapsis_km": 35790.771,
-              "inclination_deg": 0.0144,
-              "period_min": 1436.124,
+              "semi_major_axis_km": 42165.225,
+              "eccentricity": 0.0000982,
+              "periapsis_km": 35782.95,
+              "apoapsis_km": 35791.231,
+              "inclination_deg": 0.0122,
+              "period_min": 1436.122,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:43:14.000Z",
-              "mean_motion": 1.00269859,
-              "raan": 276.5949,
-              "arg_of_pericenter": 33.312,
-              "mean_anomaly": 135.274
+              "epoch": "2020-11-07T20:07:42.000Z",
+              "mean_motion": 1.00270023,
+              "raan": 277.1984,
+              "arg_of_pericenter": 33.8866,
+              "mean_anomaly": 113.0987
             }
           },
           {
@@ -4241,18 +4181,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 162,
-              "semi_major_axis_km": 42082.937,
-              "eccentricity": 0.0000703,
-              "periapsis_km": 35701.843,
-              "apoapsis_km": 35707.76,
-              "inclination_deg": 0.0138,
-              "period_min": 1431.92,
+              "semi_major_axis_km": 42083.473,
+              "eccentricity": 0.0000864,
+              "periapsis_km": 35701.702,
+              "apoapsis_km": 35708.974,
+              "inclination_deg": 0.0145,
+              "period_min": 1431.947,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T20:32:42.000Z",
-              "mean_motion": 1.00564268,
-              "raan": 264.7229,
-              "arg_of_pericenter": 34.34,
-              "mean_anomaly": 158.2213
+              "epoch": "2020-11-07T19:53:32.000Z",
+              "mean_motion": 1.00562344,
+              "raan": 266.5503,
+              "arg_of_pericenter": 41.5531,
+              "mean_anomaly": 145.4398
             }
           }
         ]
@@ -4397,9 +4337,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -4493,18 +4431,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7155.798,
-              "eccentricity": 0.0002148,
-              "periapsis_km": 776.126,
-              "apoapsis_km": 779.2,
-              "inclination_deg": 86.4021,
+              "semi_major_axis_km": 7155.797,
+              "eccentricity": 0.0002199,
+              "periapsis_km": 776.088,
+              "apoapsis_km": 779.235,
+              "inclination_deg": 86.4022,
               "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T03:45:54.000Z",
-              "mean_motion": 14.34219417,
-              "raan": 225.1411,
-              "arg_of_pericenter": 94.0198,
-              "mean_anomaly": 266.1243
+              "epoch": "2020-11-07T19:23:38.000Z",
+              "mean_motion": 14.34219882,
+              "raan": 224.0349,
+              "arg_of_pericenter": 93.5612,
+              "mean_anomaly": 266.5835
             }
           }
         ]
@@ -4779,18 +4717,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -44.9,
-              "semi_major_axis_km": 42165.78,
-              "eccentricity": 0.0001999,
-              "periapsis_km": 35779.216,
-              "apoapsis_km": 35796.074,
-              "inclination_deg": 0.0136,
-              "period_min": 1436.15,
+              "semi_major_axis_km": 42164.511,
+              "eccentricity": 0.0002124,
+              "periapsis_km": 35777.421,
+              "apoapsis_km": 35795.332,
+              "inclination_deg": 0.0173,
+              "period_min": 1436.085,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:02:17.000Z",
-              "mean_motion": 1.00268045,
-              "raan": 263.3171,
-              "arg_of_pericenter": 321.6681,
-              "mean_anomaly": 67.255
+              "epoch": "2020-11-07T17:56:46.000Z",
+              "mean_motion": 1.0027257,
+              "raan": 259.2217,
+              "arg_of_pericenter": 325.4874,
+              "mean_anomaly": 24.0256
             }
           }
         ]
@@ -4912,18 +4850,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -67,
-              "semi_major_axis_km": 42165.331,
-              "eccentricity": 0.000304,
-              "periapsis_km": 35774.378,
-              "apoapsis_km": 35800.014,
+              "semi_major_axis_km": 42164.361,
+              "eccentricity": 0.0002841,
+              "periapsis_km": 35774.247,
+              "apoapsis_km": 35798.204,
               "inclination_deg": 0.0133,
-              "period_min": 1436.127,
+              "period_min": 1436.077,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:02:39.000Z",
-              "mean_motion": 1.00269647,
-              "raan": 298.9757,
-              "arg_of_pericenter": 294.2347,
-              "mean_anomaly": 60.1533
+              "epoch": "2020-11-07T17:57:01.000Z",
+              "mean_motion": 1.00273108,
+              "raan": 301.5844,
+              "arg_of_pericenter": 297.6785,
+              "mean_anomaly": 10.5318
             }
           }
         ]
@@ -5079,9 +5017,7 @@
       }
     },
     "ships": ["GOSEARCHER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -5190,18 +5126,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 117,
-              "semi_major_axis_km": 42164.664,
-              "eccentricity": 0.0000426,
-              "periapsis_km": 35784.733,
-              "apoapsis_km": 35788.325,
-              "inclination_deg": 0.0184,
-              "period_min": 1436.093,
+              "semi_major_axis_km": 42164.722,
+              "eccentricity": 0.0000515,
+              "periapsis_km": 35784.415,
+              "apoapsis_km": 35788.758,
+              "inclination_deg": 0.0165,
+              "period_min": 1436.096,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T11:17:46.000Z",
-              "mean_motion": 1.00272025,
-              "raan": 272.8009,
-              "arg_of_pericenter": 36.0681,
-              "mean_anomaly": 321.2716
+              "epoch": "2020-11-07T02:40:57.000Z",
+              "mean_motion": 1.0027182,
+              "raan": 271.2541,
+              "arg_of_pericenter": 39.1713,
+              "mean_anomaly": 193.1129
             }
           }
         ]
@@ -5462,18 +5398,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 1.9,
-              "semi_major_axis_km": 42164.377,
-              "eccentricity": 0.0002653,
-              "periapsis_km": 35775.056,
-              "apoapsis_km": 35797.429,
-              "inclination_deg": 0.0228,
-              "period_min": 1436.078,
+              "semi_major_axis_km": 42165.002,
+              "eccentricity": 0.0002539,
+              "periapsis_km": 35776.162,
+              "apoapsis_km": 35797.573,
+              "inclination_deg": 0.032,
+              "period_min": 1436.11,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:22:23.000Z",
-              "mean_motion": 1.00273048,
-              "raan": 117.4124,
-              "arg_of_pericenter": 105.0635,
-              "mean_anomaly": 144.6371
+              "epoch": "2020-11-07T18:16:52.000Z",
+              "mean_motion": 1.00270819,
+              "raan": 106.8722,
+              "arg_of_pericenter": 116.0159,
+              "mean_anomaly": 100.6656
             }
           }
         ]
@@ -5608,18 +5544,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7155.806,
-              "eccentricity": 0.0001695,
-              "periapsis_km": 776.458,
-              "apoapsis_km": 778.884,
-              "inclination_deg": 86.3945,
+              "semi_major_axis_km": 7155.804,
+              "eccentricity": 0.0001728,
+              "periapsis_km": 776.433,
+              "apoapsis_km": 778.906,
+              "inclination_deg": 86.3948,
               "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T03:53:35.000Z",
-              "mean_motion": 14.34217025,
-              "raan": 98.7799,
-              "arg_of_pericenter": 99.2926,
-              "mean_anomaly": 260.8461
+              "epoch": "2020-11-07T16:10:23.000Z",
+              "mean_motion": 14.34217615,
+              "raan": 97.7296,
+              "arg_of_pericenter": 100.9521,
+              "mean_anomaly": 259.1869
             }
           }
         ]
@@ -5744,18 +5680,18 @@
               "reference_system": "geocentric",
               "regime": "geosynchronous",
               "longitude": -34.5,
-              "semi_major_axis_km": 42164.778,
-              "eccentricity": 0.0002246,
-              "periapsis_km": 35777.173,
-              "apoapsis_km": 35796.113,
-              "inclination_deg": 0.021,
-              "period_min": 1436.099,
+              "semi_major_axis_km": 42165.21,
+              "eccentricity": 0.0002271,
+              "periapsis_km": 35777.499,
+              "apoapsis_km": 35796.65,
+              "inclination_deg": 0.0165,
+              "period_min": 1436.121,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:11:57.000Z",
-              "mean_motion": 1.00271619,
-              "raan": 181.4095,
-              "arg_of_pericenter": 58.4742,
-              "mean_anomaly": 88.2245
+              "epoch": "2020-11-07T18:06:19.000Z",
+              "mean_motion": 1.00270079,
+              "raan": 213.6355,
+              "arg_of_pericenter": 30.1142,
+              "mean_anomaly": 40.7702
             }
           }
         ]
@@ -5768,9 +5704,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -6014,18 +5948,18 @@
               "reference_system": "geocentric",
               "regime": "sun-synchronous",
               "longitude": null,
-              "semi_major_axis_km": 7101.034,
-              "eccentricity": 0.0009571,
-              "periapsis_km": 716.102,
-              "apoapsis_km": 729.695,
-              "inclination_deg": 98.2906,
+              "semi_major_axis_km": 7101.032,
+              "eccentricity": 0.0009634,
+              "periapsis_km": 716.056,
+              "apoapsis_km": 729.739,
+              "inclination_deg": 98.2892,
               "period_min": 99.252,
               "lifespan_years": 5,
-              "epoch": "2020-11-04T18:53:24.000Z",
-              "mean_motion": 14.50842739,
-              "raan": 26.7781,
-              "arg_of_pericenter": 258.8147,
-              "mean_anomaly": 101.1975
+              "epoch": "2020-11-07T18:03:46.000Z",
+              "mean_motion": 14.50843195,
+              "raan": 29.6994,
+              "arg_of_pericenter": 248.6736,
+              "mean_anomaly": 111.3419
             }
           }
         ]
@@ -6290,18 +6224,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7155.794,
-              "eccentricity": 0.0001566,
-              "periapsis_km": 776.539,
-              "apoapsis_km": 778.78,
-              "inclination_deg": 86.3986,
-              "period_min": 100.402,
+              "semi_major_axis_km": 7155.804,
+              "eccentricity": 0.0001592,
+              "periapsis_km": 776.53,
+              "apoapsis_km": 778.808,
+              "inclination_deg": 86.3985,
+              "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T07:15:13.000Z",
-              "mean_motion": 14.3422057,
-              "raan": 161.9132,
-              "arg_of_pericenter": 85.4666,
-              "mean_anomaly": 274.6709
+              "epoch": "2020-11-07T16:11:05.000Z",
+              "mean_motion": 14.34217593,
+              "raan": 160.9225,
+              "arg_of_pericenter": 87.8599,
+              "mean_anomaly": 272.2779
             }
           }
         ]
@@ -6426,18 +6360,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -105,
-              "semi_major_axis_km": 42165.229,
-              "eccentricity": 0.0002679,
-              "periapsis_km": 35775.798,
-              "apoapsis_km": 35798.39,
-              "inclination_deg": 0.0081,
-              "period_min": 1436.122,
+              "semi_major_axis_km": 42165.319,
+              "eccentricity": 0.0002664,
+              "periapsis_km": 35775.951,
+              "apoapsis_km": 35798.417,
+              "inclination_deg": 0.024,
+              "period_min": 1436.126,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T04:10:55.000Z",
-              "mean_motion": 1.0027001,
-              "raan": 235.3403,
-              "arg_of_pericenter": 1.1748,
-              "mean_anomaly": 126.167
+              "epoch": "2020-11-07T11:05:37.000Z",
+              "mean_motion": 1.0026969,
+              "raan": 127.5539,
+              "arg_of_pericenter": 112.6238,
+              "mean_anomaly": 228.4195
             }
           }
         ]
@@ -6561,18 +6495,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 113,
-              "semi_major_axis_km": 42165.015,
-              "eccentricity": 0.0002025,
-              "periapsis_km": 35778.341,
-              "apoapsis_km": 35795.418,
-              "inclination_deg": 0.0265,
-              "period_min": 1436.111,
+              "semi_major_axis_km": 42164.469,
+              "eccentricity": 0.0001912,
+              "periapsis_km": 35778.272,
+              "apoapsis_km": 35794.395,
+              "inclination_deg": 0.0349,
+              "period_min": 1436.083,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T06:31:05.000Z",
-              "mean_motion": 1.00270775,
-              "raan": 124.3893,
-              "arg_of_pericenter": 79.7211,
-              "mean_anomaly": 51.8063
+              "epoch": "2020-11-07T20:41:27.000Z",
+              "mean_motion": 1.00272723,
+              "raan": 92.1767,
+              "arg_of_pericenter": 107.74,
+              "mean_anomaly": 271.1463
             }
           }
         ]
@@ -6585,9 +6519,7 @@
       }
     },
     "ships": ["HAWK", "GOMSTREE", "OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -6840,18 +6772,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7155.81,
-              "eccentricity": 0.0002426,
-              "periapsis_km": 775.939,
+              "semi_major_axis_km": 7155.809,
+              "eccentricity": 0.0002428,
+              "periapsis_km": 775.937,
               "apoapsis_km": 779.411,
-              "inclination_deg": 86.394,
+              "inclination_deg": 86.3942,
               "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T10:08:02.000Z",
-              "mean_motion": 14.34215891,
-              "raan": 98.6431,
-              "arg_of_pericenter": 92.7082,
-              "mean_anomaly": 267.4391
+              "epoch": "2020-11-07T15:42:58.000Z",
+              "mean_motion": 14.34216143,
+              "raan": 97.7093,
+              "arg_of_pericenter": 92.027,
+              "mean_anomaly": 268.1203
             }
           }
         ]
@@ -7126,9 +7058,7 @@
       }
     },
     "ships": ["GOQUEST"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -7411,18 +7341,18 @@
               "reference_system": "geocentric",
               "regime": "sun-synchronous",
               "longitude": null,
-              "semi_major_axis_km": 6886.558,
-              "eccentricity": 0.0001684,
-              "periapsis_km": 507.263,
-              "apoapsis_km": 509.582,
+              "semi_major_axis_km": 6886.552,
+              "eccentricity": 0.0001731,
+              "periapsis_km": 507.225,
+              "apoapsis_km": 509.61,
               "inclination_deg": 97.4459,
               "period_min": 94.79,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T04:01:34.000Z",
-              "mean_motion": 15.19145706,
-              "raan": 314.9529,
-              "arg_of_pericenter": 86.2096,
-              "mean_anomaly": 344.4589
+              "epoch": "2020-11-07T19:23:57.000Z",
+              "mean_motion": 15.19147435,
+              "raan": 317.5556,
+              "arg_of_pericenter": 76.4621,
+              "mean_anomaly": 25.9751
             }
           },
           {
@@ -7569,18 +7499,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -30,
-              "semi_major_axis_km": 42164.997,
-              "eccentricity": 0.0002279,
-              "periapsis_km": 35777.253,
-              "apoapsis_km": 35796.471,
-              "inclination_deg": 0.0505,
-              "period_min": 1436.11,
+              "semi_major_axis_km": 42164.826,
+              "eccentricity": 0.0002216,
+              "periapsis_km": 35777.347,
+              "apoapsis_km": 35796.034,
+              "inclination_deg": 0.0473,
+              "period_min": 1436.101,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T09:16:47.000Z",
-              "mean_motion": 1.00270838,
-              "raan": 57.186,
-              "arg_of_pericenter": 164.6605,
-              "mean_anomaly": 292.4916
+              "epoch": "2020-11-07T18:07:42.000Z",
+              "mean_motion": 1.00271449,
+              "raan": 54.5825,
+              "arg_of_pericenter": 170.1104,
+              "mean_anomaly": 64.7085
             }
           }
         ]
@@ -7593,9 +7523,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -7711,18 +7639,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7155.798,
-              "eccentricity": 0.0002294,
-              "periapsis_km": 776.022,
-              "apoapsis_km": 779.305,
-              "inclination_deg": 86.3978,
+              "semi_major_axis_km": 7155.797,
+              "eccentricity": 0.0002364,
+              "periapsis_km": 775.97,
+              "apoapsis_km": 779.353,
+              "inclination_deg": 86.3981,
               "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T20:57:40.000Z",
-              "mean_motion": 14.3421939,
-              "raan": 67.2603,
-              "arg_of_pericenter": 104.5701,
-              "mean_anomaly": 255.5749
+              "epoch": "2020-11-07T19:17:15.000Z",
+              "mean_motion": 14.34219833,
+              "raan": 66.0359,
+              "arg_of_pericenter": 103.6745,
+              "mean_anomaly": 256.4714
             }
           }
         ]
@@ -8104,18 +8032,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 119.1,
-              "semi_major_axis_km": 42164.976,
-              "eccentricity": 0.0002625,
-              "periapsis_km": 35775.773,
-              "apoapsis_km": 35797.91,
-              "inclination_deg": 0.0154,
-              "period_min": 1436.109,
+              "semi_major_axis_km": 42164.774,
+              "eccentricity": 0.0002412,
+              "periapsis_km": 35776.469,
+              "apoapsis_km": 35796.809,
+              "inclination_deg": 0.0149,
+              "period_min": 1436.099,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T00:27:42.000Z",
-              "mean_motion": 1.00270911,
-              "raan": 278.5785,
-              "arg_of_pericenter": 313.6625,
-              "mean_anomaly": 298.5264
+              "epoch": "2020-11-07T20:41:27.000Z",
+              "mean_motion": 1.00271632,
+              "raan": 275.1165,
+              "arg_of_pericenter": 319.272,
+              "mean_anomaly": 242.6234
             }
           }
         ]
@@ -8240,18 +8168,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7125.83,
-              "eccentricity": 0.0001823,
-              "periapsis_km": 746.396,
-              "apoapsis_km": 748.994,
+              "semi_major_axis_km": 7125.829,
+              "eccentricity": 0.0001797,
+              "periapsis_km": 746.414,
+              "apoapsis_km": 748.975,
               "inclination_deg": 86.4543,
               "period_min": 99.772,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T20:21:13.000Z",
-              "mean_motion": 14.43276584,
-              "raan": 225.2879,
-              "arg_of_pericenter": 89.3337,
-              "mean_anomaly": 270.8072
+              "epoch": "2020-11-07T19:54:12.000Z",
+              "mean_motion": 14.43276729,
+              "raan": 224.0437,
+              "arg_of_pericenter": 90.6937,
+              "mean_anomaly": 269.447
             }
           },
           {
@@ -8267,18 +8195,18 @@
               "reference_system": "geocentric",
               "regime": "sun-synchronous",
               "longitude": null,
-              "semi_major_axis_km": 6871.643,
-              "eccentricity": 0.0020263,
-              "periapsis_km": 479.584,
-              "apoapsis_km": 507.432,
+              "semi_major_axis_km": 6871.636,
+              "eccentricity": 0.0020192,
+              "periapsis_km": 479.626,
+              "apoapsis_km": 507.376,
               "inclination_deg": 88.9805,
               "period_min": 94.482,
               "lifespan_years": 5,
-              "epoch": "2020-11-04T22:46:19.000Z",
-              "mean_motion": 15.24094279,
-              "raan": 118.7953,
-              "arg_of_pericenter": 87.1902,
-              "mean_anomaly": 273.1665
+              "epoch": "2020-11-07T20:06:26.000Z",
+              "mean_motion": 15.24096545,
+              "raan": 118.4017,
+              "arg_of_pericenter": 77.6529,
+              "mean_anomaly": 282.6978
             }
           }
         ]
@@ -8400,18 +8328,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 95,
-              "semi_major_axis_km": 42164.937,
-              "eccentricity": 0.0002493,
-              "periapsis_km": 35776.291,
-              "apoapsis_km": 35797.314,
-              "inclination_deg": 0.0518,
-              "period_min": 1436.107,
+              "semi_major_axis_km": 42164.714,
+              "eccentricity": 0.0002472,
+              "periapsis_km": 35776.156,
+              "apoapsis_km": 35797.002,
+              "inclination_deg": 0.0476,
+              "period_min": 1436.096,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:49:08.000Z",
-              "mean_motion": 1.00271051,
-              "raan": 80.3155,
-              "arg_of_pericenter": 177.7256,
-              "mean_anomaly": 208.8764
+              "epoch": "2020-11-07T10:06:42.000Z",
+              "mean_motion": 1.00271847,
+              "raan": 81.7311,
+              "arg_of_pericenter": 176.6924,
+              "mean_anomaly": 35.3662
             }
           }
         ]
@@ -8662,18 +8590,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -65,
-              "semi_major_axis_km": 42165.073,
-              "eccentricity": 0.0002795,
-              "periapsis_km": 35775.153,
-              "apoapsis_km": 35798.724,
-              "inclination_deg": 0.0147,
-              "period_min": 1436.114,
+              "semi_major_axis_km": 42165.189,
+              "eccentricity": 0.000267,
+              "periapsis_km": 35775.796,
+              "apoapsis_km": 35798.312,
+              "inclination_deg": 0.0133,
+              "period_min": 1436.12,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T03:55:42.000Z",
-              "mean_motion": 1.00270565,
-              "raan": 231.2887,
-              "arg_of_pericenter": 314.2502,
-              "mean_anomaly": 215.2696
+              "epoch": "2020-11-07T17:58:09.000Z",
+              "mean_motion": 1.00270153,
+              "raan": 226.1263,
+              "arg_of_pericenter": 320.2941,
+              "mean_anomaly": 67.5428
             }
           }
         ]
@@ -8807,18 +8735,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7155.809,
-              "eccentricity": 0.0002079,
-              "periapsis_km": 776.186,
-              "apoapsis_km": 779.162,
-              "inclination_deg": 86.4028,
+              "semi_major_axis_km": 7155.807,
+              "eccentricity": 0.0002021,
+              "periapsis_km": 776.226,
+              "apoapsis_km": 779.119,
+              "inclination_deg": 86.4025,
               "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T18:32:58.000Z",
-              "mean_motion": 14.34216196,
-              "raan": 193.6267,
-              "arg_of_pericenter": 76.1416,
-              "mean_anomaly": 284.0011
+              "epoch": "2020-11-07T18:33:03.000Z",
+              "mean_motion": 14.34216641,
+              "raan": 192.3753,
+              "arg_of_pericenter": 76.3745,
+              "mean_anomaly": 283.7675
             }
           }
         ]
@@ -8939,18 +8867,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": -108,
-              "semi_major_axis_km": 42165.221,
-              "eccentricity": 0.0001695,
-              "periapsis_km": 35779.939,
-              "apoapsis_km": 35794.233,
-              "inclination_deg": 0.0155,
-              "period_min": 1436.121,
+              "semi_major_axis_km": 42164.755,
+              "eccentricity": 0.0001539,
+              "periapsis_km": 35780.131,
+              "apoapsis_km": 35793.109,
+              "inclination_deg": 0.009,
+              "period_min": 1436.098,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T09:56:21.000Z",
-              "mean_motion": 1.00270038,
-              "raan": 281.2372,
-              "arg_of_pericenter": 328.1456,
-              "mean_anomaly": 52.8261
+              "epoch": "2020-11-07T20:32:42.000Z",
+              "mean_motion": 1.00271701,
+              "raan": 278.1977,
+              "arg_of_pericenter": 331.2988,
+              "mean_anomaly": 214.2139
             }
           }
         ]
@@ -8963,9 +8891,7 @@
       }
     },
     "ships": ["HAWK", "OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -9073,18 +8999,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 138,
-              "semi_major_axis_km": 42164.887,
-              "eccentricity": 0.0002106,
-              "periapsis_km": 35777.872,
-              "apoapsis_km": 35795.632,
-              "inclination_deg": 0.0175,
-              "period_min": 1436.104,
+              "semi_major_axis_km": 42164.991,
+              "eccentricity": 0.0002048,
+              "periapsis_km": 35778.221,
+              "apoapsis_km": 35795.492,
+              "inclination_deg": 0.0174,
+              "period_min": 1436.11,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T08:21:38.000Z",
-              "mean_motion": 1.00271229,
-              "raan": 274.2655,
-              "arg_of_pericenter": 308.5694,
-              "mean_anomaly": 85.6487
+              "epoch": "2020-11-07T18:55:56.000Z",
+              "mean_motion": 1.00270858,
+              "raan": 271.9408,
+              "arg_of_pericenter": 315.5456,
+              "mean_anomaly": 241.9817
             }
           }
         ]
@@ -9207,17 +9133,17 @@
               "regime": "sun-synchronous",
               "longitude": null,
               "semi_major_axis_km": 7000.67,
-              "eccentricity": 0.0001378,
-              "periapsis_km": 621.571,
-              "apoapsis_km": 623.5,
+              "eccentricity": 0.0001372,
+              "periapsis_km": 621.575,
+              "apoapsis_km": 623.496,
               "inclination_deg": 97.8875,
               "period_min": 97.155,
               "lifespan_years": 5,
-              "epoch": "2020-11-05T10:45:23.000Z",
-              "mean_motion": 14.82153779,
-              "raan": 134.5609,
-              "arg_of_pericenter": 77.3159,
-              "mean_anomaly": 282.821
+              "epoch": "2020-11-07T17:50:42.000Z",
+              "mean_motion": 14.82153863,
+              "raan": 136.8239,
+              "arg_of_pericenter": 82.6146,
+              "mean_anomaly": 277.5229
             }
           }
         ]
@@ -9340,18 +9266,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 25.5,
-              "semi_major_axis_km": 42164.305,
-              "eccentricity": 0.0002115,
-              "periapsis_km": 35777.253,
-              "apoapsis_km": 35795.088,
-              "inclination_deg": 0.0125,
-              "period_min": 1436.075,
+              "semi_major_axis_km": 42165.17,
+              "eccentricity": 0.0001841,
+              "periapsis_km": 35779.273,
+              "apoapsis_km": 35794.798,
+              "inclination_deg": 0.0173,
+              "period_min": 1436.119,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T21:29:10.000Z",
-              "mean_motion": 1.00273305,
-              "raan": 273.3726,
-              "arg_of_pericenter": 335.6783,
-              "mean_anomaly": 143.6727
+              "epoch": "2020-11-07T18:23:39.000Z",
+              "mean_motion": 1.0027022,
+              "raan": 265.5388,
+              "arg_of_pericenter": 343.7898,
+              "mean_anomaly": 99.8285
             }
           }
         ]
@@ -9477,18 +9403,18 @@
               "reference_system": "geocentric",
               "regime": "sun-synchronous",
               "longitude": null,
-              "semi_major_axis_km": 6960.11,
-              "eccentricity": 0.0016066,
-              "periapsis_km": 570.793,
-              "apoapsis_km": 593.157,
-              "inclination_deg": 97.6931,
+              "semi_major_axis_km": 6960.099,
+              "eccentricity": 0.0016097,
+              "periapsis_km": 570.761,
+              "apoapsis_km": 593.168,
+              "inclination_deg": 97.6929,
               "period_min": 96.312,
               "lifespan_years": null,
-              "epoch": "2020-11-04T17:36:18.000Z",
-              "mean_motion": 14.95128562,
-              "raan": 18.7742,
-              "arg_of_pericenter": 81.4765,
-              "mean_anomaly": 278.8275
+              "epoch": "2020-11-07T17:53:04.000Z",
+              "mean_motion": 14.95132112,
+              "raan": 21.7284,
+              "arg_of_pericenter": 72.3976,
+              "mean_anomaly": 287.9002
             }
           }
         ]
@@ -9745,18 +9671,18 @@
               "reference_system": "geocentric",
               "regime": "semi-synchronous",
               "longitude": null,
-              "semi_major_axis_km": 26559.759,
-              "eccentricity": 0.0009439,
-              "periapsis_km": 20156.555,
-              "apoapsis_km": 20206.694,
-              "inclination_deg": 55.0128,
+              "semi_major_axis_km": 26559.761,
+              "eccentricity": 0.0009445,
+              "periapsis_km": 20156.54,
+              "apoapsis_km": 20206.711,
+              "inclination_deg": 55.0132,
               "period_min": 717.952,
               "lifespan_years": 15,
-              "epoch": "2020-11-04T18:33:11.000Z",
-              "mean_motion": 2.00570265,
-              "raan": 173.1659,
-              "arg_of_pericenter": 201.1729,
-              "mean_anomaly": 101.6553
+              "epoch": "2020-11-07T18:47:36.000Z",
+              "mean_motion": 2.0057025,
+              "raan": 173.0471,
+              "arg_of_pericenter": 200.8181,
+              "mean_anomaly": 115.4646
             }
           }
         ]
@@ -9769,9 +9695,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -9888,17 +9812,17 @@
               "regime": "low-earth",
               "longitude": null,
               "semi_major_axis_km": 7155.8,
-              "eccentricity": 0.0002636,
-              "periapsis_km": 775.778,
-              "apoapsis_km": 779.551,
+              "eccentricity": 0.0002515,
+              "periapsis_km": 775.865,
+              "apoapsis_km": 779.464,
               "inclination_deg": 86.3943,
               "period_min": 100.403,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T01:23:13.000Z",
-              "mean_motion": 14.34218981,
-              "raan": 130.3851,
-              "arg_of_pericenter": 67.6805,
-              "mean_anomaly": 292.467
+              "epoch": "2020-11-07T18:41:25.000Z",
+              "mean_motion": 14.34218964,
+              "raan": 129.2472,
+              "arg_of_pericenter": 64.8419,
+              "mean_anomaly": 295.3037
             }
           }
         ]
@@ -10022,18 +9946,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 146,
-              "semi_major_axis_km": 42164.651,
-              "eccentricity": 0.0002229,
-              "periapsis_km": 35777.118,
-              "apoapsis_km": 35795.915,
-              "inclination_deg": 0.0148,
-              "period_min": 1436.092,
+              "semi_major_axis_km": 42164.97,
+              "eccentricity": 0.0002039,
+              "periapsis_km": 35778.238,
+              "apoapsis_km": 35795.433,
+              "inclination_deg": 0.0169,
+              "period_min": 1436.109,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T09:33:24.000Z",
-              "mean_motion": 1.00272072,
-              "raan": 279.2422,
-              "arg_of_pericenter": 308.3817,
-              "mean_anomaly": 106.8538
+              "epoch": "2020-11-07T18:58:12.000Z",
+              "mean_motion": 1.00270933,
+              "raan": 282.5848,
+              "arg_of_pericenter": 307.8592,
+              "mean_anomaly": 247.5926
             }
           },
           {
@@ -10105,9 +10029,7 @@
       }
     },
     "ships": ["OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -10377,18 +10299,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": 30.5,
-              "semi_major_axis_km": 42164.808,
-              "eccentricity": 0.0006844,
-              "periapsis_km": 35757.815,
-              "apoapsis_km": 35815.531,
-              "inclination_deg": 0.0448,
-              "period_min": 1436.1,
+              "semi_major_axis_km": 42164.545,
+              "eccentricity": 0.0006889,
+              "periapsis_km": 35757.363,
+              "apoapsis_km": 35815.457,
+              "inclination_deg": 0.0417,
+              "period_min": 1436.087,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T02:40:42.000Z",
-              "mean_motion": 1.00271512,
-              "raan": 329.1621,
-              "arg_of_pericenter": 282.329,
-              "mean_anomaly": 224.028
+              "epoch": "2020-11-07T18:25:02.000Z",
+              "mean_motion": 1.00272449,
+              "raan": 336.9333,
+              "arg_of_pericenter": 276.8439,
+              "mean_anomaly": 100.4446
             }
           }
         ]
@@ -10739,9 +10661,7 @@
       }
     },
     "ships": ["OCISLY", "GOSEARCHER", "HOLLYWOOD", "GOQUEST", "GONAVIGATOR"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -10848,18 +10768,18 @@
               "reference_system": "geocentric",
               "regime": "sun-synchronous",
               "longitude": null,
-              "semi_major_axis_km": 6967.997,
-              "eccentricity": 0.0001488,
-              "periapsis_km": 588.825,
-              "apoapsis_km": 590.899,
-              "inclination_deg": 97.7587,
+              "semi_major_axis_km": 6968.013,
+              "eccentricity": 0.0001553,
+              "periapsis_km": 588.796,
+              "apoapsis_km": 590.96,
+              "inclination_deg": 97.759,
               "period_min": 96.476,
               "lifespan_years": null,
-              "epoch": "2020-11-05T03:29:25.000Z",
-              "mean_motion": 14.92590903,
-              "raan": 314.8934,
-              "arg_of_pericenter": 83.8042,
-              "mean_anomaly": 276.3316
+              "epoch": "2020-11-07T19:50:53.000Z",
+              "mean_motion": 14.92585775,
+              "raan": 317.5367,
+              "arg_of_pericenter": 84.5311,
+              "mean_anomaly": 275.6084
             }
           }
         ]
@@ -10872,9 +10792,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "vafb_slc_4e",
       "site_name": "VAFB SLC 4E",
@@ -11094,18 +11012,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6809.157,
-              "eccentricity": 0.0210912,
-              "periapsis_km": 287.409,
-              "apoapsis_km": 574.636,
-              "inclination_deg": 28.5125,
-              "period_min": 93.196,
+              "semi_major_axis_km": 6806.514,
+              "eccentricity": 0.0207393,
+              "periapsis_km": 287.217,
+              "apoapsis_km": 569.542,
+              "inclination_deg": 28.5133,
+              "period_min": 93.142,
               "lifespan_years": null,
-              "epoch": "2020-11-04T14:50:15.000Z",
-              "mean_motion": 15.45121556,
-              "raan": 97.7339,
-              "arg_of_pericenter": 141.7315,
-              "mean_anomaly": 219.8459
+              "epoch": "2020-11-07T17:12:56.000Z",
+              "mean_motion": 15.46021647,
+              "raan": 76.0618,
+              "arg_of_pericenter": 176.9658,
+              "mean_anomaly": 183.2243
             }
           },
           {
@@ -11123,18 +11041,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7094.397,
-              "eccentricity": 0.0011573,
-              "periapsis_km": 708.051,
-              "apoapsis_km": 724.472,
-              "inclination_deg": 23.9987,
+              "semi_major_axis_km": 7094.395,
+              "eccentricity": 0.0011541,
+              "periapsis_km": 708.072,
+              "apoapsis_km": 724.447,
+              "inclination_deg": 23.9985,
               "period_min": 99.113,
               "lifespan_years": null,
-              "epoch": "2020-11-04T17:08:58.000Z",
-              "mean_motion": 14.52879225,
-              "raan": 309.2198,
-              "arg_of_pericenter": 238.7141,
-              "mean_anomaly": 121.2216
+              "epoch": "2020-11-07T14:23:03.000Z",
+              "mean_motion": 14.52879794,
+              "raan": 291.0715,
+              "arg_of_pericenter": 270.8666,
+              "mean_anomaly": 89.0503
             }
           },
           {
@@ -11152,18 +11070,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7094.709,
-              "eccentricity": 0.0011257,
-              "periapsis_km": 708.587,
-              "apoapsis_km": 724.56,
-              "inclination_deg": 24.0015,
+              "semi_major_axis_km": 7094.708,
+              "eccentricity": 0.0011232,
+              "periapsis_km": 708.604,
+              "apoapsis_km": 724.542,
+              "inclination_deg": 24.0012,
               "period_min": 99.12,
               "lifespan_years": null,
-              "epoch": "2020-11-05T03:46:01.000Z",
-              "mean_motion": 14.52783331,
-              "raan": 306.9482,
-              "arg_of_pericenter": 242.8752,
-              "mean_anomaly": 117.0591
+              "epoch": "2020-11-07T15:06:54.000Z",
+              "mean_motion": 14.52783527,
+              "raan": 291.3941,
+              "arg_of_pericenter": 270.5082,
+              "mean_anomaly": 89.4122
             }
           },
           {
@@ -11181,18 +11099,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 7093.374,
-              "eccentricity": 0.0010191,
-              "periapsis_km": 708.01,
-              "apoapsis_km": 722.467,
-              "inclination_deg": 24.0009,
-              "period_min": 99.092,
+              "semi_major_axis_km": 7093.359,
+              "eccentricity": 0.0010119,
+              "periapsis_km": 708.046,
+              "apoapsis_km": 722.401,
+              "inclination_deg": 24.0005,
+              "period_min": 99.091,
               "lifespan_years": null,
-              "epoch": "2020-11-04T17:01:02.000Z",
-              "mean_motion": 14.53193562,
-              "raan": 309.2442,
-              "arg_of_pericenter": 242.0498,
-              "mean_anomaly": 117.8961
+              "epoch": "2020-11-07T07:38:41.000Z",
+              "mean_motion": 14.53198171,
+              "raan": 292.8199,
+              "arg_of_pericenter": 271.6464,
+              "mean_anomaly": 88.2868
             }
           },
           {
@@ -11326,18 +11244,18 @@
               "reference_system": "geocentric",
               "regime": "low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6925.208,
-              "eccentricity": 0.0354355,
-              "periapsis_km": 301.674,
-              "apoapsis_km": 792.471,
-              "inclination_deg": 28.5252,
-              "period_min": 95.589,
+              "semi_major_axis_km": 6924.902,
+              "eccentricity": 0.035413,
+              "periapsis_km": 301.535,
+              "apoapsis_km": 791.998,
+              "inclination_deg": 28.5244,
+              "period_min": 95.582,
               "lifespan_years": null,
-              "epoch": "2020-11-04T22:10:15.000Z",
-              "mean_motion": 15.06445816,
-              "raan": 175.0428,
-              "arg_of_pericenter": 16.3196,
-              "mean_anomaly": 344.8487
+              "epoch": "2020-11-07T20:08:13.000Z",
+              "mean_motion": 15.0654567,
+              "raan": 155.8085,
+              "arg_of_pericenter": 47.5832,
+              "mean_anomaly": 315.4162
             }
           },
           {
@@ -11466,9 +11384,7 @@
       }
     },
     "ships": ["OCISLY", "GOQUEST", "GONAVIGATOR", "GOMSTREE", "HOLLYWOOD"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -11609,9 +11525,7 @@
       "fairings": null
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -11719,9 +11633,7 @@
       }
     },
     "ships": ["GOMSTREE", "GONAVIGATOR"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -11867,18 +11779,18 @@
               "reference_system": "geocentric",
               "regime": "very-low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6927.841,
-              "eccentricity": 0.0000786,
-              "periapsis_km": 549.162,
-              "apoapsis_km": 550.251,
-              "inclination_deg": 53.0012,
-              "period_min": 95.643,
+              "semi_major_axis_km": 6927.857,
+              "eccentricity": 0.0000986,
+              "periapsis_km": 549.039,
+              "apoapsis_km": 550.405,
+              "inclination_deg": 53.001,
+              "period_min": 95.644,
               "lifespan_years": null,
-              "epoch": "2020-11-04T16:41:07.000Z",
-              "mean_motion": 15.05586845,
-              "raan": 304.9728,
-              "arg_of_pericenter": 68.6189,
-              "mean_anomaly": 291.4883
+              "epoch": "2020-11-07T16:22:42.000Z",
+              "mean_motion": 15.05581631,
+              "raan": 291.5624,
+              "arg_of_pericenter": 63.0135,
+              "mean_anomaly": 297.0954
             }
           }
         ]
@@ -11891,9 +11803,7 @@
       }
     },
     "ships": ["GOMSTREE", "OCISLY", "GONAVIGATOR"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12008,9 +11918,7 @@
       "fairings": null
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12105,18 +12013,18 @@
               "reference_system": "geocentric",
               "regime": "geostationary",
               "longitude": null,
-              "semi_major_axis_km": 42164.617,
-              "eccentricity": 0.0000904,
-              "periapsis_km": 35782.671,
-              "apoapsis_km": 35790.294,
-              "inclination_deg": 0.0141,
-              "period_min": 1436.091,
+              "semi_major_axis_km": 42165.206,
+              "eccentricity": 0.0000773,
+              "periapsis_km": 35783.811,
+              "apoapsis_km": 35790.33,
+              "inclination_deg": 0.0144,
+              "period_min": 1436.121,
               "lifespan_years": 15,
-              "epoch": "2020-11-05T03:14:52.000Z",
-              "mean_motion": 1.00272192,
-              "raan": 270.6297,
-              "arg_of_pericenter": 350.9978,
-              "mean_anomaly": 341.9464
+              "epoch": "2020-11-07T19:04:24.000Z",
+              "mean_motion": 1.00270093,
+              "raan": 261.6406,
+              "arg_of_pericenter": 10.5628,
+              "mean_anomaly": 211.375
             }
           }
         ]
@@ -12129,9 +12037,7 @@
       }
     },
     "ships": ["GOMSTREE", "GOMSCHIEF", "OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12281,18 +12187,18 @@
               "reference_system": "geocentric",
               "regime": "very-low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6927.841,
-              "eccentricity": 0.0001497,
-              "periapsis_km": 548.669,
-              "apoapsis_km": 550.743,
-              "inclination_deg": 53.0022,
-              "period_min": 95.643,
+              "semi_major_axis_km": 6927.867,
+              "eccentricity": 0.0001384,
+              "periapsis_km": 548.774,
+              "apoapsis_km": 550.691,
+              "inclination_deg": 53.0004,
+              "period_min": 95.644,
               "lifespan_years": null,
-              "epoch": "2020-11-05T10:30:51.000Z",
-              "mean_motion": 15.05587023,
-              "raan": 101.6384,
-              "arg_of_pericenter": 88.8776,
-              "mean_anomaly": 271.2384
+              "epoch": "2020-11-07T19:52:07.000Z",
+              "mean_motion": 15.05578385,
+              "raan": 90.9103,
+              "arg_of_pericenter": 90.6534,
+              "mean_anomaly": 269.4612
             }
           }
         ]
@@ -12305,9 +12211,7 @@
       }
     },
     "ships": ["GOMSTREE", "OCISLY", "GONAVIGATOR", "GOQUEST", "HAWK"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12420,9 +12324,7 @@
       "fairings": null
     },
     "ships": ["GOSEARCHER"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -12575,18 +12477,18 @@
               "reference_system": "geocentric",
               "regime": "very-low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6927.773,
-              "eccentricity": 0.0001387,
-              "periapsis_km": 548.677,
-              "apoapsis_km": 550.599,
-              "inclination_deg": 53.0023,
-              "period_min": 95.642,
+              "semi_major_axis_km": 6927.87,
+              "eccentricity": 0.0001128,
+              "periapsis_km": 548.953,
+              "apoapsis_km": 550.516,
+              "inclination_deg": 53.0007,
+              "period_min": 95.644,
               "lifespan_years": null,
-              "epoch": "2020-11-04T14:43:14.000Z",
-              "mean_motion": 15.05609026,
-              "raan": 25.3402,
-              "arg_of_pericenter": 97.4614,
-              "mean_anomaly": 262.6532
+              "epoch": "2020-11-07T14:24:51.000Z",
+              "mean_motion": 15.05577661,
+              "raan": 11.928,
+              "arg_of_pericenter": 93.753,
+              "mean_anomaly": 266.3586
             }
           }
         ]
@@ -12599,9 +12501,7 @@
       }
     },
     "ships": ["GOMSTREE", "GOMSCHIEF", "OCISLY", "GOQUEST", "HAWK"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12715,9 +12615,7 @@
       }
     },
     "ships": ["GOMSTREE", "GOMSCHIEF", "GOQUEST", "OCISLY", "HAWK"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12831,9 +12729,7 @@
       "fairings": null
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -12985,18 +12881,18 @@
               "reference_system": "geocentric",
               "regime": "very-low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6927.886,
-              "eccentricity": 0.0002054,
-              "periapsis_km": 548.328,
-              "apoapsis_km": 551.174,
-              "inclination_deg": 53.0013,
+              "semi_major_axis_km": 6927.856,
+              "eccentricity": 0.0001966,
+              "periapsis_km": 548.359,
+              "apoapsis_km": 551.083,
+              "inclination_deg": 53.0011,
               "period_min": 95.644,
               "lifespan_years": null,
-              "epoch": "2020-11-05T09:16:06.000Z",
-              "mean_motion": 15.05572221,
-              "raan": 161.8694,
-              "arg_of_pericenter": 83.8495,
-              "mean_anomaly": 276.2727
+              "epoch": "2020-11-07T20:12:57.000Z",
+              "mean_motion": 15.05582035,
+              "raan": 150.8435,
+              "arg_of_pericenter": 86.1862,
+              "mean_anomaly": 273.9351
             }
           }
         ]
@@ -13009,9 +12905,7 @@
       }
     },
     "ships": ["OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -13124,9 +13018,7 @@
       }
     },
     "ships": ["OCISLY", "GOMSTREE", "GOMSCHIEF"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -13241,9 +13133,7 @@
       "fairings": null
     },
     "ships": ["OCISLY", "GOQUEST", "GOSEARCHER", "GONAVIGATOR"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -13426,9 +13316,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -13539,18 +13427,18 @@
               "reference_system": "geocentric",
               "regime": "very-low-earth",
               "longitude": null,
-              "semi_major_axis_km": 6927.916,
-              "eccentricity": 0.000101,
-              "periapsis_km": 549.081,
-              "apoapsis_km": 550.481,
-              "inclination_deg": 53.0008,
+              "semi_major_axis_km": 6927.902,
+              "eccentricity": 0.0000945,
+              "periapsis_km": 549.112,
+              "apoapsis_km": 550.421,
+              "inclination_deg": 53.0012,
               "period_min": 95.645,
               "lifespan_years": null,
-              "epoch": "2020-11-04T22:00:00.000Z",
-              "mean_motion": 15.05562501,
-              "raan": 353.968,
-              "arg_of_pericenter": 86.9304,
-              "mean_anomaly": 202.249
+              "epoch": "2020-11-07T22:00:00.000Z",
+              "mean_motion": 15.05567225,
+              "raan": 340.5004,
+              "arg_of_pericenter": 83.6132,
+              "mean_anomaly": 274.8857
             }
           }
         ]
@@ -13563,9 +13451,7 @@
       }
     },
     "ships": ["GOMSTREE", "GOMSCHIEF", "GOQUEST", "OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -13676,9 +13562,7 @@
       }
     },
     "ships": [],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -13795,9 +13679,7 @@
       }
     },
     "ships": ["GOMSCHIEF", "GOMSTREE", "JRTI"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",
@@ -14023,9 +13905,7 @@
       }
     },
     "ships": ["GOMSCHIEF", "GOMSTREE", "OCISLY"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ksc_lc_39a",
       "site_name": "KSC LC 39A",
@@ -14161,9 +14041,7 @@
       }
     },
     "ships": ["GOMSTREE", "GOMSCHIEF", "OCISLY", "GOQUEST"],
-    "telemetry": {
-      "flight_club": null
-    },
+    "telemetry": { "flight_club": null },
     "launch_site": {
       "site_id": "ccafs_slc_40",
       "site_name": "CCAFS SLC 40",

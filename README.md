@@ -44,14 +44,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Mobile view
 ![image](https://user-images.githubusercontent.com/56883443/98466204-05ebac00-21f4-11eb-8f15-1ea474850a01.png)
-![image](https://user-images.githubusercontent.com/56883443/98466223-2ae01f00-21f4-11eb-966b-67951282b53a.png)
+![image](https://user-images.githubusercontent.com/56883443/98518698-bbbb0700-2295-11eb-8e1f-10335d1c55cb.png)
+
 
 
 ## Desktop View
-![image](https://user-images.githubusercontent.com/56883443/98466151-b9a06c00-21f3-11eb-8535-30199f0821a1.png)
+![image](https://user-images.githubusercontent.com/56883443/98518483-739be480-2295-11eb-8ce8-54e24f419a8f.png)
+
 
 ## I-pad View
-![image](https://user-images.githubusercontent.com/56883443/98466252-53681900-21f4-11eb-8ef5-602682659565.png)
+![image](https://user-images.githubusercontent.com/56883443/98518784-db522f80-2295-11eb-8248-3af28e43296b.png)
+
 
 
 

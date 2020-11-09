@@ -5,5 +5,5 @@ export interface FlightData {
   launch_year: string;
   launch_success: boolean;
   land_success?: any;
-  video_link: string
+  image_link: string
 }

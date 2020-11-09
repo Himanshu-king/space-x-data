@@ -42,7 +42,7 @@ export class DataService {
         land_success: item.launch_success
           ? item.rocket.first_stage.cores[0].land_success
           : false,
-          video_link: item.links.video_link,
+         image_link: item.links.mission_patch_small,
       };
       return modifiedData;
     });

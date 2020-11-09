@@ -1,6 +1,7 @@
 <div *ngIf="launchData" class="cards-element-image" style="background-color: #d8d8d8;">
-  <iframe width="200" height="148" [src]="launchData.video_link | safe">
-  </iframe>
+  <!-- <iframe width="200" height="148" [src]="launchData.video_link | safe">
+  </iframe> -->
+  <img [src]="launchData.image_link" alt="No image">
 </div>
 <div *ngIf="launchData" class="card-element-details" [ngClass]="{ 'card-element-scroll': launchData.mission_id.length >= 2 }">
   <p class="cards-element__heading">{{ launchData.mission_name }} #{{launchData.flight_number}}</p>

@@ -83,7 +83,7 @@ describe("DashboardComponent", () => {
 
 
     expect(applyFilterSpy).not.toHaveBeenCalled();
-    expect(getFilteredResultsSpy).not.toHaveBeenCalled();
+    expect(getFilteredResultsSpy).toHaveBeenCalled();
     expect(checkNullObjectSpy).not.toHaveBeenCalled();
   });
 

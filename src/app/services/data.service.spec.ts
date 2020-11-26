@@ -23,20 +23,6 @@ describe("DataService", () => {
     expect(service).toBeTruthy();
   });
 
-  it("should call getAllLaunches", () => {
-    service.getAllLaunches().subscribe((value: any) => {
-      expect(value[0].flight_number).toEqual(1);
-    });
-    const API_PREFIX = "https://api.spaceXdata.com/v3/launches?limit=100";
-
-    const req = httpTestingController.expectOne(API_PREFIX);
-    expect(req.request.method).toBe("GET");
-
-    req.flush(allLaunchData);
-
-    httpTestingController.verify();
-  });
-
   it("should call getFilterData", () => {
     const query = "launch_success=true";
     service.getFilterData(query).subscribe((value: any) => {

@@ -10,6 +10,9 @@ import { SpinnerComponent } from "./shared/spinner/spinner.component";
 import { LoadingInterceptor } from './services/loading.interceptor';
 import { ResultCardsComponent } from './result-cards/result-cards.component';
 import { SafePipe } from './shared/safe.pipe';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+import { ComponentA } from './a.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +21,15 @@ import { SafePipe } from './shared/safe.pipe';
     FilterButtonComponent,
     SpinnerComponent,
     ResultCardsComponent,
-    SafePipe
+    SafePipe,
+    ComponentA,
+    ComponentA
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "serverApp" }),
     AppRoutingModule,
     HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [
     {

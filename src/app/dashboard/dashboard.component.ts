@@ -50,7 +50,7 @@ export class DashboardComponent implements OnInit {
             this.setFilterStateOnLoad(params);
           }
         } else {
-          this.launches$ = this.getAllLaunchesData();
+          this.launches$ = this.getFilteredResults();
         }
       });
   }
@@ -69,17 +69,10 @@ export class DashboardComponent implements OnInit {
   }
 
   /**
-   * Function to get all the datas on first load  of the app without any filter
-   */
-  getAllLaunchesData(): Observable<any> {
-    return this.dataService.getAllLaunches();
-  }
-
-  /**
    * Function to return filtered data on selection of any filter
    * @param query - custom query based on filters from the URL
    */
-  getFilteredResults(query: string): Observable<any> {
+  getFilteredResults(query = null): Observable<any> {
     return this.dataService.getFilterData(query);
   }
 

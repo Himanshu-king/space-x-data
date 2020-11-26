@@ -12,20 +12,10 @@ const API_PREFIX = "https://api.spaceXdata.com/v3/launches?limit=100";
 export class DataService {
   constructor(private http: HttpClient) {}
 
-  /**
-   * Get all spacXdata
-   */
-
-  getAllLaunches(): Observable<FlightData[]> {
-    return this.http.get<FlightData[]>(API_PREFIX, {}).pipe(
-      map((data) => this.formatData(data)),
-      catchError(this.handleError)
-    );
-  }
-
   // Launch & Land Success/Failure Filter
-  getFilterData(query: string): Observable<FlightData[]> {
-    return this.http.get(`${API_PREFIX}&${query}`, {}).pipe(
+  getFilterData(query?): Observable<FlightData[]> {
+    const fetchURL = query ? `${API_PREFIX}&${query}` : API_PREFIX;
+    return this.http.get(fetchURL, {}).pipe(
       map((data) => this.formatData(data)),
       catchError(this.handleError)
     );

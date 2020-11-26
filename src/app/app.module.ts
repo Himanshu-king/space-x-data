@@ -12,7 +12,6 @@ import { ResultCardsComponent } from './result-cards/result-cards.component';
 import { SafePipe } from './shared/safe.pipe';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { ComponentA } from './a.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +20,7 @@ import { ComponentA } from './a.component';
     FilterButtonComponent,
     SpinnerComponent,
     ResultCardsComponent,
-    SafePipe,
-    ComponentA,
-    ComponentA
+    SafePipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "serverApp" }),
